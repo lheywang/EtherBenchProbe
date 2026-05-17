@@ -1,0 +1,11 @@
+# Altiums projects files
+*.prjpcb
+*.PrjPcb
+*.schdoc
+*.pcbdoc
+*.SchDoc
+*.PcbDoc
+*.mbsdoc
+*.MbsDoc
+*.mbadoc
+*.MbaDoc
