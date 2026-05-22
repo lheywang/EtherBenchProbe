@@ -9,3 +9,7 @@
 *.MbsDoc
 *.mbadoc
 *.MbaDoc
+
+# Marker files
+*.bin
+*.h
