@@ -1,0 +1,33 @@
+# Example config
+# Minimal data set
+
+version: 1.0.0
+
+std_voltage: 3.3V
+min_voltage: 2.5V
+max_voltage: 3.6V
+
+max_current: 250mA
+
+flags:
+  - require_clock
+  - require_usb
+  - active_board
+  - ignore_mounting_check
+
+clock_frequency: 16MHz
+
+# Extended features. Fully optionnal. Not all are shown !
+
+name: MyExampleBoard
+
+uart0:
+  baudrate: 115200
+  transfer: 7
+
+spi0:
+  baudrate: 32MHz
+
+calibration:
+  adc0_offset: -12mV
+  dac_gain: 1.002
